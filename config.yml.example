@@ -1,0 +1,14 @@
+# API Server Configuration
+server:
+  base_url: "https://fortsonguru.com/jericho/public/api"
+  output_dir: "data_files"
+
+# Default Headers
+headers:
+  Content-Type: "application/json"
+  User-Agent: "DynamicApiClient/1.0"
+
+# Secrets (e.g., API Keys, Bearer Tokens)
+# NEVER commit the actual config.yml with real secrets to Git
+secrets:
+  bearer_token: "your_token_here"
