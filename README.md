@@ -64,12 +64,12 @@ You can use the `DynamicApiClient` in your own scripts as follows:
 from api_client import DynamicApiClient
 
 # Initialize the client (optional base_url)
-client = DynamicApiClient(base_url="https://fortsonguru.com/jericho/public/api")
+client = DynamicApiClient(base_url="https://yourserver.com/jericho/public/api")
 
 # Make a GET request (gat_all_meetings_for_org_desc)
 response = client.make_request(
     method="GET", 
-    endpoint="/meetings/9abfdbc2-378d-4c69-b140-7c55c5db7222",
+    endpoint="/meetings/meetingid1234567890",
     params={"direction": "desc"}
 )
 
