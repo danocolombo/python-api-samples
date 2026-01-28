@@ -115,3 +115,21 @@ This will generate `get_response.json` and `post_response.json` in the `data_fil
 - `api_client.py`: Contains the `DynamicApiClient` class.
 - `main.py`: A demonstration script showing how to use the client.
 - `README.md`: Project documentation.
+
+## Connecting to GitHub
+
+To push this project to your GitHub account:
+
+1.  **Create a new repository** on GitHub (do not initialize it with a README or license).
+2.  **Add the remote** to your local repository:
+    ```bash
+    git remote add origin https://github.com/YOUR_USERNAME/apiSample.git
+    ```
+3.  **Rename the branch** (if necessary, though we use `main` here):
+    ```bash
+    git branch -M main
+    ```
+4.  **Push your code**:
+    ```bash
+    git push -u origin main
+    ```
